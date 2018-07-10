@@ -1,3 +1,4 @@
 node_modules
 .DS_Store
 Conponents/Config/Env.js
+package-lock.json
