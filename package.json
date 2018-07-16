@@ -1,14 +1,14 @@
 {
-    "name": "gene-food-front-end",
+    "name": "react-redux-boilerplate",
     "version": "1.0.0",
-    "description": "Front End for gene food project",
+    "description": "This is basic react and redux boilerplate.",
     "main": "src/index.js",
     "scripts": {
         "start:dev": "webpack-dev-server --hot --inline",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "ISK",
-    "license": "ISC",
+    "author": "Shubham",
+    "license": "MIT",
     "dependencies": {
         "axios": "^0.17.1",
         "jquery": "^3.3.1",
