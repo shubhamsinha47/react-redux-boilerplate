@@ -41,13 +41,12 @@ class Header extends React.Component {
 			    <div className="container">
 			        <nav className="navbar navbar-expand-lg navbar-light py-0">
 			            <div className="logo-section">
-			                <Link className="navbar-brand" to="/"><img src={`${env.baseImageUrl}logo.png`} /></Link>
+			                <Link className="navbar-brand text-center" to="/"><img src={`${env.baseImageUrl}logo.png`} /></Link>
 			                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			                    <span className="navbar-toggler-icon"></span>
 			                </button>
 			                <div className="top-navbar">
 			                    <ul>
-			                        <li><Link to=""><i className="fas fa-search"></i></Link></li>
 			                        <ToggleLink {...this.props} logOutUser = { this.logOutUser } />
 			                    </ul>
 			                </div>

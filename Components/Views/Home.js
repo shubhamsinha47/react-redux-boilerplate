@@ -14,7 +14,7 @@ class Home extends React.Component {
         return (
             <MainPageLayout> 
             	<main>
-                    <p>Home Page</p>
+                    <h1>Home Page</h1>
                 </main>
             </MainPageLayout>
         )

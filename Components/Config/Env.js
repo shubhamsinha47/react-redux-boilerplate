@@ -5,7 +5,8 @@ const env = {
 	facebook_app_id: "",
 	google_app_id: "",
 	baseApiUrl: "http://127.0.0.1:8000/api/",
-	RedirectPath: "/login"
+	RedirectPath: "/login",
+	app_name: "Premiere"
 }
 
 export default env

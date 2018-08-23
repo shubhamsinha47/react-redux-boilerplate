@@ -2,7 +2,7 @@ import Env from './Env'
 
 class StoreManager {
     constructor() {
-        this.path = `${Env.baseUrl}:state`
+        this.path = `${Env.baseUrl}-${Env.app_name}:state`
     }
 
     loadState() {
